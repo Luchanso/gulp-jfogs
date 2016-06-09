@@ -1,0 +1,19 @@
+{
+  "name": "gulp-jfogs",
+  "version": "1.0.0",
+  "description": "JFogs plugin for gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Loutchansky Oleg,",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "jfogs": "0.0.15",
+    "through2": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=v5.10.0"
+  }
+}
