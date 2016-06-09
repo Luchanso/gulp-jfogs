@@ -1,6 +1,6 @@
 {
   "name": "gulp-jfogs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JFogs plugin for gulp",
   "main": "index.js",
   "scripts": {
@@ -17,16 +17,18 @@
     "code",
     "obfuscator"
   ],
-  "maintainers": [
-    {
-      "name": "zswang",
-      "email": "wjhu111@21cn.com"
-    },
-    {
-      "name": "luchanso",
-      "email": "oleg@loutchansky.com"
-    }
-  ],
+  "homepage": "https://github.com/Luchanso/gulp-jfogs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luchanso/gulp-jfogs"
+  },
+  "maintainers": [{
+    "name": "zswang",
+    "email": "wjhu111@21cn.com"
+  }, {
+    "name": "luchanso",
+    "email": "oleg@loutchansky.com"
+  }],
   "engines": {
     "node": ">=v5.10.0"
   }
