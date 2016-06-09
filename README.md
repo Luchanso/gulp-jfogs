@@ -7,7 +7,7 @@ npm i gulp-jfogs
 ```
 
 Example use:
-```
+```js
 var gulp = require('gulp'),
   jfogs = require('gulp-jfogs');
 
