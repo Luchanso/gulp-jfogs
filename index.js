@@ -10,15 +10,12 @@ module.exports = function() {
         }
 
         if (file.isStream()) {
-            file.contents = file.contents.pipe();
-            console.log(file.contents);
-
-            return callback(null, file);
+            this.emit('error', new PluginError(PLUGIN_NAME, 'Streams not supported!'));
         } else if (file.isBuffer()) {
             var result = jfogs.obfuscate(file.contents.toString());
 
             file.contents = Buffer.from(result);
-            
+
             return callback(null, file);
         }
     });

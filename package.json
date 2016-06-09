@@ -6,13 +6,27 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Loutchansky Oleg,",
+  "author": "Loutchansky Oleg",
   "license": "MIT",
   "dependencies": {
     "gulp-util": "^3.0.7",
     "jfogs": "0.0.15",
     "through2": "^2.0.1"
   },
+  "keywords": [
+    "code",
+    "obfuscator"
+  ],
+  "maintainers": [
+    {
+      "name": "zswang",
+      "email": "wjhu111@21cn.com"
+    },
+    {
+      "name": "luchanso",
+      "email": "oleg@loutchansky.com"
+    }
+  ],
   "engines": {
     "node": ">=v5.10.0"
   }
